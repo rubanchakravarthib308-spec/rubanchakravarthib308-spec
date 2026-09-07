@@ -7,6 +7,12 @@
   <sub>Chennai, India • Building systems that move from reasoning → action → verification</sub>
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/ruban-b-691642b9/">
+    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Ruban on LinkedIn" />
+  </a>
+</p>
+
 ---
 
 ## The short version
@@ -157,6 +163,14 @@ I’m open to conversations around:
 **AI Engineering roles** • **Agentic AI projects** • **LLM application development** • **AI workflow automation** • **early-stage AI product builds** • **technical collaborations**
 
 If you’re building something where AI needs to **understand, decide, use tools, and safely take action**, I’d like to hear about it.
+
+**Best place to reach me:** [LinkedIn](https://www.linkedin.com/in/ruban-b-691642b9/)
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ruban-b-691642b9/">
+    <img src="https://img.shields.io/badge/Start%20a%20conversation-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Start a conversation with Ruban on LinkedIn" />
+  </a>
+</p>
 
 <p align="center">
   <strong>Build useful. Build measurable. Build trustworthy.</strong>
