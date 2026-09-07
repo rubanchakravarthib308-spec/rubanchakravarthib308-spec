@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Ruban Chakravarthi — AI Engineer focused on agentic systems" width="100%" />
+  <img src="./assets/hero.svg" alt="Ruban Chakravarthi — transitioning from enterprise technology into AI engineering" width="100%" />
 </p>
 
 <p align="center">
-  <strong>AI Engineer • Agentic Systems • Automation • LLM Applications</strong><br/>
-  <sub>Chennai, India • Building systems that move from reasoning → action → verification</sub>
+  <strong>AI Developer in Transition • Agentic AI • Automation • Enterprise Technology Background</strong><br/>
+  <sub>Chennai, India • Generative AI certified • Building hands-on AI systems in public</sub>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ruban-b-691642b9/">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Ruban on LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Professional%20Background-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="View Ruban's professional background on LinkedIn" />
   </a>
 </p>
 
@@ -17,13 +17,15 @@
 
 ## The short version
 
-I’m **Ruban Chakravarthi**. I build AI systems that do more than generate an answer.
+I come from an **enterprise technology sales background across SAP, ERP, infrastructure and digital transformation**.
 
-I’m interested in the harder layer: **Can the system understand a goal, use tools, interact with real software, make a decision, ask for human judgment when needed, execute safely, and prove what it actually did?**
+Over time, I became less interested in only selling technology — and more interested in **how intelligent systems are actually designed, automated, tested and trusted in the real world**.
 
-That is the kind of engineering I want my work to answer.
+That shift led me into **Generative AI and Agentic AI**.
 
-> **My north star:** build AI that is useful enough to act — and trustworthy enough to be allowed to.
+I’ve completed a Generative AI certification and am continuing structured Agentic AI learning while building hands-on projects around **AI agents, automation, APIs, human approval, safety controls, verification and production-oriented backend engineering**.
+
+> **My goal:** combine enterprise business understanding with practical AI engineering so I can build systems that solve real operational problems — not just demos.
 
 ---
 
@@ -33,7 +35,7 @@ That is the kind of engineering I want my work to answer.
 
 **A production-minded execution layer for AI agents — plan, act, verify, approve.**
 
-This project demonstrates the engineering boundary between an AI planner and real-world execution:
+This project explores the engineering boundary between an AI planner and real-world execution:
 
 ```text
 Goal → Plan → Risk Gate → Human Approval → Tool Execution → Verification → Audit Trail
@@ -41,32 +43,32 @@ Goal → Plan → Risk Gate → Human Approval → Tool Execution → Verificati
 
 It includes a guarded tool registry, explicit risk handling, human approval for high-risk actions, post-action verification, safety-focused tests, CI, and architecture documentation.
 
-**Why I built it:** a model being able to call a tool is not enough. Real agent systems need control, evidence, and accountability around every important action.
+**Why I built it:** a model being able to call a tool is not enough. Real agent systems need control, evidence and accountability around every important action.
 
 ➡️ **[Explore the repository](https://github.com/rubanchakravarthib308-spec/agent-control-plane)**
 
 ---
 
-## What I bring to a team
+## What I bring from my previous career
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 AI systems thinking
-I think in workflows, decisions, tools, state, failure modes, human checkpoints, and measurable outcomes — not just prompts.
+### 🧭 Enterprise context
+Years around enterprise technology taught me how real organizations think about systems, buyers, risk, integration, adoption and business outcomes.
 
-### ⚙️ Builder mindset
-I enjoy taking an idea from a vague requirement to architecture, APIs, persistence, tests, integration, and a working system.
+### 🤝 User & stakeholder empathy
+A strong system is not only technically impressive. It has to solve a problem somebody actually cares about and can trust enough to use.
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ Safety by design
-For systems that can take real actions, I care about authorization, policy gates, replay protection, human approval, dry-run modes, and post-action verification.
+### ⚙️ Builder mindset
+I’m now translating that enterprise perspective into architecture, APIs, persistence, testing, automation and working AI systems.
 
-### 🤝 Human-first engineering
-Good automation should remove friction without removing accountability. I design for the human who has to trust the system after the demo is over.
+### 🛡️ Safety by design
+For systems that can take real actions, I care about authorization, approval, replay protection, dry-run modes and independent verification.
 
 </td>
 </tr>
@@ -76,11 +78,9 @@ Good automation should remove friction without removing accountability. I design
 
 ## 🚀 Flagship build — AI Social Intelligence & Action System
 
-My main project is a private, actively developed **AI social intelligence and recommendation platform**.
+My main private project is an actively developed **AI social intelligence and recommendation platform**.
 
-It explores what happens when an AI system has to connect to real social platforms, understand content, evaluate trends, recommend changes, pass safety checks, wait for human approval where required, execute through APIs, and verify the final result.
-
-### What the system includes
+It explores what happens when an AI system has to connect to real platforms, understand content, evaluate trends, recommend changes, pass safety checks, wait for human approval where required, execute through APIs, and verify the final result.
 
 ```text
 Social Platform APIs
@@ -104,22 +104,33 @@ Outcome Measurement
 
 **Engineering themes:** OAuth 2.0 / PKCE • platform adapters • PostgreSQL • Redis • TypeScript • Fastify • Docker • policy enforcement • human-in-the-loop workflows • transactional execution • verification • automated testing
 
-The production repository remains private while the system is under active development.
+The production repository remains private while it is under active development.
 
 ---
 
-## 🔬 The problems I like working on
+## 📚 Learning + building path
 
-- **Agentic AI:** turning a model into a system that can plan, call tools, maintain state, and complete multi-step work
-- **LLM reliability:** structured outputs, validation, retries, evaluation, guardrails, and failure handling
-- **Automation:** connecting AI to APIs, business workflows, and real-world software
-- **Human-in-the-loop systems:** designing the exact moments where AI should stop and ask a person
-- **AI product engineering:** making the jump from “interesting demo” to something a team can actually operate
-- **Observability & verification:** knowing what the agent decided, what it changed, and whether the change really happened
+- Completed **Generative AI certification through UpGrad**
+- Continuing structured **Agentic AI learning through an institution**
+- Building public projects to prove engineering capability through code, tests, architecture and CI
+- Deepening Python, TypeScript, APIs, databases and production AI patterns alongside agentic systems
+
+I’m deliberately avoiding the “certificate-only” path. The goal is to pair formal learning with **visible engineering proof**.
 
 ---
 
-## 🧰 Engineering toolbox
+## 🔬 Problems I’m focused on
+
+- **Agentic AI:** systems that can plan, call tools, maintain state and complete multi-step work
+- **LLM reliability:** structured outputs, validation, retries, evaluation, guardrails and failure handling
+- **Automation:** connecting AI to APIs and real business workflows
+- **Human-in-the-loop systems:** deciding exactly when AI should stop and ask a person
+- **AI product engineering:** moving from interesting prototype to something a team can actually operate
+- **Verification:** knowing what the agent decided, what it changed and whether the change really happened
+
+---
+
+## 🧰 Engineering toolbox I’m building with
 
 | Layer | Tools / Concepts |
 |---|---|
@@ -132,46 +143,16 @@ The production repository remains private while the system is under active devel
 
 ---
 
-## 🧭 How I approach engineering
+## 🤝 Where I’m heading
 
-```text
-01. Understand the real-world decision
-02. Map the actors, permissions, data and failure modes
-03. Make the happy path simple
-04. Make unsafe paths difficult or impossible
-05. Test the boundaries, not only the demo
-06. Measure what happened after the AI acted
-07. Improve the system from evidence
-```
+I’m working toward AI engineering roles and projects where my combination of **enterprise technology experience + hands-on Agentic AI engineering** is useful.
 
-I’m especially drawn to products where **AI meets real operations**: agents, enterprise automation, productivity systems, sales workflows, platform integrations, analytics, and decision support.
+I’m especially interested in:
 
----
+**AI agents** • **enterprise automation** • **LLM applications** • **workflow orchestration** • **AI product engineering** • **business systems enhanced by AI**
 
-## 🌱 Currently sharpening
-
-**Agentic AI • Multi-agent orchestration • Production LLM architecture • AI evaluation • AI automation • AI product engineering**
-
-I’m deliberately building across both sides of the problem: **the intelligence layer** and **the software engineering layer that makes that intelligence dependable**.
-
----
-
-## 🤝 Work with me
-
-I’m open to conversations around:
-
-**AI Engineering roles** • **Agentic AI projects** • **LLM application development** • **AI workflow automation** • **early-stage AI product builds** • **technical collaborations**
-
-If you’re building something where AI needs to **understand, decide, use tools, and safely take action**, I’d like to hear about it.
-
-**Best place to reach me:** [LinkedIn](https://www.linkedin.com/in/ruban-b-691642b9/)
+If you’re interested in the transition story, my broader professional background, or a possible collaboration, [connect with me on LinkedIn](https://www.linkedin.com/in/ruban-b-691642b9/).
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ruban-b-691642b9/">
-    <img src="https://img.shields.io/badge/Start%20a%20conversation-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Start a conversation with Ruban on LinkedIn" />
-  </a>
-</p>
-
-<p align="center">
-  <strong>Build useful. Build measurable. Build trustworthy.</strong>
+  <strong>Learning deeply. Building publicly. Earning credibility through working systems.</strong>
 </p>
