@@ -37,10 +37,10 @@
 
   <rect x="74" y="70" width="8" height="218" rx="4" fill="url(#accent)"/>
 
-  <text x="112" y="118" fill="#90A4B8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">AI ENGINEER • AGENTIC SYSTEMS</text>
+  <text x="112" y="118" fill="#90A4B8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="3">ENTERPRISE TECH → AI ENGINEERING</text>
   <text x="112" y="184" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800">Ruban Chakravarthi</text>
-  <text x="112" y="230" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">I build AI that can think, act, verify — and earn trust.</text>
-  <text x="112" y="276" fill="#B7C6D6" font-family="Arial, Helvetica, sans-serif" font-size="18">LLM applications  •  AI agents  •  automation  •  APIs  •  safe production systems</text>
+  <text x="112" y="230" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Learning deeply. Building publicly. Shipping real systems.</text>
+  <text x="112" y="276" fill="#B7C6D6" font-family="Arial, Helvetica, sans-serif" font-size="18">Agentic AI  •  GenAI certified  •  automation  •  APIs  •  enterprise context</text>
 
   <rect x="112" y="305" width="320" height="2" rx="1" fill="url(#accent)" opacity="0.85"/>
 </svg>
