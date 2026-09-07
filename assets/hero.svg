@@ -1,0 +1,46 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0B1F33"/>
+      <stop offset="1" stop-color="#102A43"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="110" y1="70" x2="960" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58E6D9"/>
+      <stop offset="0.55" stop-color="#72A7FF"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+
+  <g opacity="0.26" stroke="#7DD3FC" stroke-width="1.2">
+    <path d="M760 54L860 102L944 74L1034 142L1120 110"/>
+    <path d="M782 214L864 170L948 204L1034 166L1110 224"/>
+    <path d="M816 292L888 252L982 278L1074 250"/>
+    <path d="M860 102L864 170L888 252"/>
+    <path d="M944 74L948 204L982 278"/>
+    <path d="M1034 142L1034 166L1074 250"/>
+  </g>
+
+  <g fill="#8BE9FD" filter="url(#glow)">
+    <circle cx="760" cy="54" r="4"/><circle cx="860" cy="102" r="5"/><circle cx="944" cy="74" r="4"/>
+    <circle cx="1034" cy="142" r="5"/><circle cx="1120" cy="110" r="4"/><circle cx="782" cy="214" r="4"/>
+    <circle cx="864" cy="170" r="5"/><circle cx="948" cy="204" r="5"/><circle cx="1034" cy="166" r="4"/>
+    <circle cx="1110" cy="224" r="4"/><circle cx="816" cy="292" r="4"/><circle cx="888" cy="252" r="5"/>
+    <circle cx="982" cy="278" r="4"/><circle cx="1074" cy="250" r="5"/>
+  </g>
+
+  <rect x="74" y="70" width="8" height="218" rx="4" fill="url(#accent)"/>
+
+  <text x="112" y="118" fill="#90A4B8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">AI ENGINEER • AGENTIC SYSTEMS</text>
+  <text x="112" y="184" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800">Ruban Chakravarthi</text>
+  <text x="112" y="230" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">I build AI that can think, act, verify — and earn trust.</text>
+  <text x="112" y="276" fill="#B7C6D6" font-family="Arial, Helvetica, sans-serif" font-size="18">LLM applications  •  AI agents  •  automation  •  APIs  •  safe production systems</text>
+
+  <rect x="112" y="305" width="320" height="2" rx="1" fill="url(#accent)" opacity="0.85"/>
+</svg>
