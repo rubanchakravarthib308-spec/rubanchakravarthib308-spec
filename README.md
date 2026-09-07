@@ -21,6 +21,26 @@ That is the kind of engineering I want my work to answer.
 
 ---
 
+## 🔥 Public proof project
+
+### [Agent Control Plane](https://github.com/rubanchakravarthib308-spec/agent-control-plane)
+
+**A production-minded execution layer for AI agents — plan, act, verify, approve.**
+
+This project demonstrates the engineering boundary between an AI planner and real-world execution:
+
+```text
+Goal → Plan → Risk Gate → Human Approval → Tool Execution → Verification → Audit Trail
+```
+
+It includes a guarded tool registry, explicit risk handling, human approval for high-risk actions, post-action verification, safety-focused tests, CI, and architecture documentation.
+
+**Why I built it:** a model being able to call a tool is not enough. Real agent systems need control, evidence, and accountability around every important action.
+
+➡️ **[Explore the repository](https://github.com/rubanchakravarthib308-spec/agent-control-plane)**
+
+---
+
 ## What I bring to a team
 
 <table>
