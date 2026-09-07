@@ -57,6 +57,20 @@ The first version includes deterministic retrieval, explicit evidence/citation t
 
 ➡️ **[Explore RAG Reliability Lab](https://github.com/rubanchakravarthib308-spec/rag-reliability-lab)**
 
+### 3. [AI Ops Copilot](https://github.com/rubanchakravarthib308-spec/ai-ops-copilot)
+
+**A production-minded incident triage copilot with runbook retrieval, risk gates, human approval and audit evidence.**
+
+```text
+Incident → Classify → Assess Severity → Retrieve Runbook → Recommend Action → Risk Gate → Human Approval → Audit Trail
+```
+
+The first version includes deterministic incident classification, controlled runbook retrieval, risk-aware recommendations, human approval for high-risk cases, explicit blocked/completed states, ordered audit events, automated tests, CI, architecture docs and an end-to-end demo.
+
+**Why I built it:** AI in operations should assist judgment without silently becoming the authority. Recommendations need evidence, policy boundaries, review points and traceability.
+
+➡️ **[Explore AI Ops Copilot](https://github.com/rubanchakravarthib308-spec/ai-ops-copilot)**
+
 ---
 
 ## What I bring from my previous career
