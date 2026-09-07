@@ -29,23 +29,33 @@ I’ve completed a Generative AI certification and am continuing structured Agen
 
 ---
 
-## 🔥 Public proof project
+## 🔥 Public proof projects
 
-### [Agent Control Plane](https://github.com/rubanchakravarthib308-spec/agent-control-plane)
+### 1. [Agent Control Plane](https://github.com/rubanchakravarthib308-spec/agent-control-plane)
 
 **A production-minded execution layer for AI agents — plan, act, verify, approve.**
-
-This project explores the engineering boundary between an AI planner and real-world execution:
 
 ```text
 Goal → Plan → Risk Gate → Human Approval → Tool Execution → Verification → Audit Trail
 ```
 
-It includes a guarded tool registry, explicit risk handling, human approval for high-risk actions, post-action verification, safety-focused tests, CI, and architecture documentation.
+It demonstrates guarded tool execution, risk-aware approval, post-action verification, auditability, tests and CI.
 
-**Why I built it:** a model being able to call a tool is not enough. Real agent systems need control, evidence and accountability around every important action.
+➡️ **[Explore Agent Control Plane](https://github.com/rubanchakravarthib308-spec/agent-control-plane)**
 
-➡️ **[Explore the repository](https://github.com/rubanchakravarthib308-spec/agent-control-plane)**
+### 2. [RAG Reliability Lab](https://github.com/rubanchakravarthib308-spec/rag-reliability-lab)
+
+**A transparent lab for testing whether RAG answers are actually grounded in retrieved evidence.**
+
+```text
+Question → Retrieval → Answer → Citation Validation → Groundedness Score → Hallucination Risk → Reliability Gate
+```
+
+The first version includes deterministic retrieval, explicit evidence/citation types, citation validation, groundedness scoring, hallucination-risk scoring, automated tests, CI and architecture documentation — all runnable without paid APIs or hidden model behavior.
+
+**Why I built it:** a RAG system should not be trusted just because it produces a fluent answer. It should provide evidence, validate citations and expose when support is weak.
+
+➡️ **[Explore RAG Reliability Lab](https://github.com/rubanchakravarthib308-spec/rag-reliability-lab)**
 
 ---
 
