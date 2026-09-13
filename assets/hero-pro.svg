@@ -1,0 +1,70 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07101B"/>
+      <stop offset="0.62" stop-color="#0A1420"/>
+      <stop offset="1" stop-color="#0D1726"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="65" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.55" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+
+  <!-- left: restrained identity -->
+  <text x="66" y="58" fill="#7F93A6" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="3">ENTERPRISE TECH → AI ENGINEERING</text>
+  <text x="66" y="120" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800">Ruban Chakravarthi</text>
+  <text x="66" y="162" fill="#AAB8C6" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600">Building reliable AI systems for real-world workflows.</text>
+
+  <rect x="66" y="190" width="420" height="2" rx="1" fill="#173044"/>
+  <rect x="66" y="190" width="84" height="2" rx="1" fill="url(#accent)">
+    <animate attributeName="x" values="66;402;66" dur="6.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="66" y="230" fill="#7B8EA0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600">Agentic AI  •  RAG Reliability  •  AI Ops  •  Automation</text>
+  <text x="66" y="260" fill="#53697D" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">REASON  •  ACT  •  VERIFY  •  TRUST</text>
+
+  <!-- right: minimal animated AI systems mark -->
+  <g transform="translate(930 150)">
+    <circle r="90" stroke="#172C3D" stroke-width="1.5" fill="none"/>
+    <circle r="68" stroke="#132739" stroke-width="1.2" fill="none"/>
+
+    <circle r="90" stroke="url(#accent)" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="54 510" opacity="0.9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="68" stroke="#60A5FA" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-dasharray="34 393" opacity="0.55">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="28" fill="#0B2130" stroke="#24475F"/>
+    <circle r="7" fill="#B9F3FF" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="6;8;6" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <line x1="-118" y1="0" x2="-28" y2="0" stroke="#1D394D" stroke-width="1.5"/>
+    <line x1="28" y1="0" x2="118" y2="0" stroke="#1D394D" stroke-width="1.5"/>
+
+    <circle cx="-118" cy="0" r="4" fill="#67E8F9"/>
+    <circle cx="118" cy="0" r="4" fill="#8B5CF6"/>
+
+    <circle r="3" fill="#E0F7FF" filter="url(#soft)">
+      <animate attributeName="cx" values="-118;-28" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#C4B5FD" filter="url(#soft)">
+      <animate attributeName="cx" values="28;118" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="0" y="128" text-anchor="middle" fill="#6C8093" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.8">RELIABLE AI SYSTEMS</text>
+  </g>
+</svg>
