@@ -1,100 +1,112 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111F"/>
-      <stop offset="0.52" stop-color="#0B1F33"/>
-      <stop offset="1" stop-color="#102A43"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050A12"/>
+      <stop offset="0.48" stop-color="#091827"/>
+      <stop offset="1" stop-color="#10182B"/>
     </linearGradient>
-    <linearGradient id="accent" x1="110" y1="70" x2="960" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#58E6D9"/>
-      <stop offset="0.55" stop-color="#72A7FF"/>
-      <stop offset="1" stop-color="#C084FC"/>
+    <linearGradient id="cyanPurple" x1="210" y1="80" x2="1020" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4"/>
+      <stop offset="0.48" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
     </linearGradient>
-    <radialGradient id="nodeGlow">
-      <stop offset="0" stop-color="#D9FBFF" stop-opacity="1"/>
-      <stop offset="0.32" stop-color="#8BE9FD" stop-opacity="0.75"/>
-      <stop offset="1" stop-color="#8BE9FD" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#F6C86A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="reveal"><rect x="112" y="195" width="0" height="45"><animate attributeName="width" values="0;690;690" keyTimes="0;0.22;1" dur="8s" repeatCount="indefinite"/></rect></clipPath>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="400" rx="26" fill="url(#bg)"/>
 
-  <!-- subtle ambient sweep -->
-  <rect x="560" y="0" width="150" height="360" fill="#4FD1C5" opacity="0">
-    <animate attributeName="x" values="560;1160" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.025;0.025;0" keyTimes="0;0.25;0.75;1" dur="9s" repeatCount="indefinite"/>
-  </rect>
+  <!-- ambient horizon -->
+  <ellipse cx="975" cy="335" rx="250" ry="58" fill="#F59E0B" opacity="0.055" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.035;0.08;0.035" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
 
-  <!-- agentic network -->
-  <g stroke="#7DD3FC" stroke-width="1.2" fill="none">
-    <g opacity="0.22">
-      <path d="M760 54L860 102L944 74L1034 142L1120 110"/>
-      <path d="M782 214L864 170L948 204L1034 166L1110 224"/>
-      <path d="M816 292L888 252L982 278L1074 250"/>
-      <path d="M860 102L864 170L888 252"/>
-      <path d="M944 74L948 204L982 278"/>
-      <path d="M1034 142L1034 166L1074 250"/>
-    </g>
-    <g opacity="0.55">
-      <path d="M760 54L860 102L944 74L1034 142L1120 110" stroke-dasharray="4 18">
-        <animate attributeName="stroke-dashoffset" values="0;-88" dur="7s" repeatCount="indefinite"/>
-      </path>
-      <path d="M782 214L864 170L948 204L1034 166L1110 224" stroke-dasharray="3 20">
-        <animate attributeName="stroke-dashoffset" values="0;-92" dur="8s" repeatCount="indefinite"/>
-      </path>
-    </g>
+  <!-- top identity rail -->
+  <text x="62" y="55" fill="#91A4B7" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="4">ENTERPRISE CONTEXT  ×  AI ENGINEERING</text>
+  <text x="935" y="55" fill="#70859B" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.5">BUILD • VERIFY • TRUST</text>
+
+  <!-- left: identity -->
+  <text x="62" y="124" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="800">Ruban Chakravarthi</text>
+  <text x="62" y="162" fill="#A9BBCB" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600">From business conversations to intelligent systems.</text>
+  <text x="62" y="203" fill="url(#cyanPurple)" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800">Building AI that can reason, act, verify — and earn trust.</text>
+
+  <!-- capability chips -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">
+    <rect x="62" y="235" width="106" height="34" rx="17" fill="#0E2734" stroke="#2DD4BF" stroke-opacity="0.38"/>
+    <text x="83" y="257" fill="#9CF5E9">Agentic AI</text>
+    <rect x="180" y="235" width="132" height="34" rx="17" fill="#0B2638" stroke="#38BDF8" stroke-opacity="0.38"/>
+    <text x="201" y="257" fill="#9DDBFA">RAG Reliability</text>
+    <rect x="324" y="235" width="92" height="34" rx="17" fill="#151F3B" stroke="#818CF8" stroke-opacity="0.4"/>
+    <text x="345" y="257" fill="#C7D2FE">AI Ops</text>
+    <rect x="428" y="235" width="118" height="34" rx="17" fill="#1D1836" stroke="#A78BFA" stroke-opacity="0.4"/>
+    <text x="449" y="257" fill="#D8B4FE">Automation</text>
   </g>
 
-  <!-- moving signals -->
-  <circle r="3.2" fill="#D6FBFF" filter="url(#glow)">
-    <animateMotion path="M760 54L860 102L944 74L1034 142L1120 110" dur="6.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="6.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2.8" fill="#A78BFA" filter="url(#glow)">
-    <animateMotion path="M816 292L888 252L982 278L1074 250" dur="7.5s" begin="1.2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.12;0.22;0.88;1" dur="7.5s" begin="1.2s" repeatCount="indefinite"/>
+  <!-- career / systems journey line -->
+  <path id="journey" d="M75 318 C220 286, 350 338, 482 304 C595 275, 656 208, 744 204 C842 200, 888 248, 982 216 C1054 192, 1092 156, 1142 133" stroke="#15364F" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M75 318 C220 286, 350 338, 482 304 C595 275, 656 208, 744 204 C842 200, 888 248, 982 216 C1054 192, 1092 156, 1142 133" stroke="url(#cyanPurple)" stroke-width="2.2" stroke-linecap="round" fill="none" stroke-dasharray="10 14" opacity="0.8">
+    <animate attributeName="stroke-dashoffset" values="0;-96" dur="5.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- moving system signal -->
+  <circle r="5" fill="#D5FAFF" filter="url(#glow)">
+    <animateMotion dur="7.5s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#journey"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.07;0.93;1" dur="7.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- pulsing nodes -->
-  <g fill="#8BE9FD" filter="url(#glow)">
-    <circle cx="760" cy="54" r="4"><animate attributeName="r" values="4;6;4" dur="4.2s" repeatCount="indefinite"/></circle>
-    <circle cx="860" cy="102" r="5"><animate attributeName="opacity" values="0.65;1;0.65" dur="3.6s" begin="0.4s" repeatCount="indefinite"/></circle>
-    <circle cx="944" cy="74" r="4"><animate attributeName="r" values="4;5.5;4" dur="4.8s" begin="1.1s" repeatCount="indefinite"/></circle>
-    <circle cx="1034" cy="142" r="5"><animate attributeName="opacity" values="0.6;1;0.6" dur="4s" begin="0.8s" repeatCount="indefinite"/></circle>
-    <circle cx="1120" cy="110" r="4"><animate attributeName="r" values="4;5.5;4" dur="5.2s" begin="1.6s" repeatCount="indefinite"/></circle>
-    <circle cx="782" cy="214" r="4"><animate attributeName="opacity" values="0.55;1;0.55" dur="4.4s" begin="1.2s" repeatCount="indefinite"/></circle>
-    <circle cx="864" cy="170" r="5"><animate attributeName="r" values="5;7;5" dur="4.6s" begin="0.7s" repeatCount="indefinite"/></circle>
-    <circle cx="948" cy="204" r="5"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.8s" begin="1.4s" repeatCount="indefinite"/></circle>
-    <circle cx="1034" cy="166" r="4"><animate attributeName="r" values="4;5.5;4" dur="5s" begin="0.2s" repeatCount="indefinite"/></circle>
-    <circle cx="1110" cy="224" r="4"><animate attributeName="opacity" values="0.6;1;0.6" dur="4.7s" begin="1.8s" repeatCount="indefinite"/></circle>
-    <circle cx="816" cy="292" r="4"><animate attributeName="r" values="4;5.5;4" dur="4.3s" begin="1.1s" repeatCount="indefinite"/></circle>
-    <circle cx="888" cy="252" r="5"><animate attributeName="opacity" values="0.6;1;0.6" dur="4.1s" begin="0.5s" repeatCount="indefinite"/></circle>
-    <circle cx="982" cy="278" r="4"><animate attributeName="r" values="4;5.5;4" dur="5.1s" begin="1.3s" repeatCount="indefinite"/></circle>
-    <circle cx="1074" cy="250" r="5"><animate attributeName="opacity" values="0.65;1;0.65" dur="4.5s" begin="0.9s" repeatCount="indefinite"/></circle>
+  <!-- milestone labels -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="111" cy="310" r="7" fill="#5EEAD4" filter="url(#glow)"><animate attributeName="r" values="6;8;6" dur="3.8s" repeatCount="indefinite"/></circle>
+    <text x="72" y="349" fill="#A7B8C8" font-size="13" font-weight="700">ENTERPRISE TECH</text>
+    <text x="72" y="367" fill="#61778A" font-size="11">context • clients • outcomes</text>
+
+    <circle cx="744" cy="204" r="8" fill="#38BDF8" filter="url(#glow)"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.2s" repeatCount="indefinite"/></circle>
+    <text x="681" y="179" fill="#BDEBFF" font-size="13" font-weight="700">AI ENGINEERING</text>
+    <text x="681" y="194" fill="#668096" font-size="11">agents • evidence • controls</text>
+
+    <circle cx="1142" cy="133" r="8" fill="#F6C86A" filter="url(#glow)"><animate attributeName="r" values="7;10;7" dur="4.4s" repeatCount="indefinite"/></circle>
+    <text x="1010" y="105" fill="#FAD999" font-size="13" font-weight="800" letter-spacing="1.5">NEXT: BIGGER IMPACT</text>
   </g>
 
-  <!-- signature accent -->
-  <rect x="74" y="70" width="8" height="218" rx="4" fill="url(#accent)">
-    <animate attributeName="opacity" values="0.78;1;0.78" dur="5s" repeatCount="indefinite"/>
-  </rect>
+  <!-- right: three living project modules -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="650" y="78" width="150" height="58" rx="13" fill="#0B1B27" stroke="#38BDF8" stroke-opacity="0.42">
+      <animate attributeName="stroke-opacity" values="0.3;0.85;0.3" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="669" y="101" fill="#E8F8FF" font-size="13" font-weight="800">AGENT CONTROL PLANE</text>
+    <text x="669" y="121" fill="#6FA8C5" font-size="11">plan → approve → execute</text>
 
-  <!-- identity -->
-  <text x="112" y="118" fill="#90A4B8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="3">ENTERPRISE TECH → AI ENGINEERING</text>
-  <text x="112" y="184" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800">Ruban Chakravarthi</text>
-  <text x="112" y="230" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Building systems that reason. Act. Verify. Earn trust.</text>
-  <text x="112" y="276" fill="#B7C6D6" font-family="Arial, Helvetica, sans-serif" font-size="18">Agentic AI  •  RAG reliability  •  AI Ops  •  automation  •  human-in-the-loop</text>
+    <rect x="818" y="91" width="148" height="58" rx="13" fill="#10192C" stroke="#8B5CF6" stroke-opacity="0.4">
+      <animate attributeName="stroke-opacity" values="0.3;0.3;0.85;0.3" keyTimes="0;0.2;0.55;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="836" y="114" fill="#F0E9FF" font-size="13" font-weight="800">RAG RELIABILITY LAB</text>
+    <text x="836" y="134" fill="#8D7EB7" font-size="11">retrieve → ground → score</text>
 
-  <!-- animated underline -->
-  <rect x="112" y="305" width="320" height="2" rx="1" fill="#27445F" opacity="0.8"/>
-  <rect x="112" y="305" width="72" height="2" rx="1" fill="url(#accent)">
-    <animate attributeName="x" values="112;360;112" keyTimes="0;0.5;1" dur="5.5s" repeatCount="indefinite"/>
-    <animate attributeName="width" values="72;42;72" keyTimes="0;0.5;1" dur="5.5s" repeatCount="indefinite"/>
-  </rect>
+    <rect x="986" y="72" width="151" height="58" rx="13" fill="#171823" stroke="#F6C86A" stroke-opacity="0.36">
+      <animate attributeName="stroke-opacity" values="0.3;0.3;0.3;0.85;0.3" keyTimes="0;0.3;0.55;0.78;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1005" y="95" fill="#FFF3D6" font-size="13" font-weight="800">AI OPS COPILOT</text>
+    <text x="1005" y="115" fill="#A98B5B" font-size="11">detect → reason → respond</text>
+  </g>
 
-  <text x="828" y="320" fill="#7890A8" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">PLAN • RETRIEVE • VERIFY • APPROVE</text>
+  <!-- animated inter-project links -->
+  <g stroke-width="1.3" fill="none" opacity="0.7">
+    <path d="M800 107 C810 107, 812 116, 818 120" stroke="#38BDF8" stroke-dasharray="3 7"><animate attributeName="stroke-dashoffset" values="0;-30" dur="2.2s" repeatCount="indefinite"/></path>
+    <path d="M966 120 C975 119, 978 108, 986 102" stroke="#A78BFA" stroke-dasharray="3 7"><animate attributeName="stroke-dashoffset" values="0;-30" dur="2.4s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- footer principle -->
+  <line x1="62" y1="386" x2="1138" y2="386" stroke="#173047"/>
+  <text x="62" y="382" fill="#657C90" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">HUMAN-IN-THE-LOOP  •  SAFETY BY DESIGN  •  EVIDENCE BEFORE ACTION  •  PRODUCTION-MINDED SYSTEMS</text>
 </svg>
