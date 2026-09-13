@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Ruban Chakravarthi — transitioning from enterprise technology into AI engineering" width="100%" />
+  <img src="./assets/hero-pro.svg" alt="Ruban Chakravarthi — transitioning from enterprise technology into AI engineering" width="100%" />
 </p>
 
 <p align="center">
